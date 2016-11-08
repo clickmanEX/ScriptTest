@@ -6,7 +6,7 @@ public class Sorcerer
     private int mp = 53;
     public void Magic()
     {
-        if(this.mp > 5)
+        if(this.mp >= 5)
         {
             this.mp -= 5;
             Debug.Log("魔法攻撃をした！残りMPは" + mp + "。");
